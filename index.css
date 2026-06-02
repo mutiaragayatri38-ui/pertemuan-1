@@ -1,0 +1,274 @@
+*,
+body {
+    color: white;
+}
+
+*,
+html {
+    margin: 1px;
+    padding: 1px;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.568);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.568);
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #120008;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    background-color: #2A0D1A;
+    padding: 15px;
+    border-bottom: 1px solid #8B3A62;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #D98BB3;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: white;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.hero-left h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.hero-left h1 span {
+    color: #D98BB3;
+}
+
+.hero-left h2 {
+    margin-bottom: 15px;
+}
+
+.hero-left p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.avatar-ring img {
+    border-radius: 50%;
+    border: 3px solid #8B3A62;
+}
+
+/* Section */
+.section {
+    padding: 40px 20px;
+}
+
+.sec-title {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sec-sub {
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+/* Skill */
+.skill-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-card {
+    width: 250px;
+    background-color: #2A0D1A;
+    border: 1px solid #8B3A62;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Card */
+.card-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    background-color: #2A0D1A;
+    border: 1px solid #8B3A62;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #D98BB3;
+    margin-bottom: 10px;
+}
+
+/* Profile */
+.profile-wrap {
+    background-color: #2A0D1A;
+    border: 1px solid #8B3A62;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 800px;
+}
+
+.profile-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #D98BB3;
+}
+
+.profile-role {
+    margin-bottom: 20px;
+}
+
+.detail-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.detail-table td {
+    border-bottom: 1px solid #8B3A62;
+    padding: 10px;
+}
+
+/* Page Hero */
+.page-hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.page-hero h1 {
+    color: #D98BB3;
+}
+
+/* Gallery */
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.gal-item {
+    width: 280px;
+    background-color: #2A0D1A;
+    border: 1px solid #8B3A62;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gal-item img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.cap-row {
+    padding: 15px;
+    text-align: center;
+}
+
+.cap-cat {
+    color: #D98BB3;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cap {
+    display: block;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    background-color: #2A0D1A;
+    border-top: 1px solid #8B3A62;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-left h1 {
+        font-size: 35px;
+    }
+
+    .avatar-ring img {
+        width: 280px;
+        height: 280px;
+    }
+}
